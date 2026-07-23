@@ -16,7 +16,7 @@ Internet → Cloudflare Email Routing → Cloudflare Email Worker
 - **Database**: MongoDB Atlas (Mongoose)
 - **Real-time**: Server-Sent Events (SSE)
 - **Email parsing**: mailparser
-- **Email routing**: Cloudflare Email Worker → vtech.biz.id
+- **Email routing**: Cloudflare Email Worker → noxxyrorr.biz.id
 
 ## Folder Structure
 ```
@@ -55,7 +55,7 @@ All config is centralized in `config.js`. No .env files.
 - **admin.username/password** — Admin panel credentials
 
 ## Cloudflare Worker
-Deploy this worker to Cloudflare (already set up at noxxy-email-worker.vynaachan.workers.dev):
+Deploy this worker to Cloudflare already set up at [https://noxxyrorr-worker.faymantap.workers.dev]:
 ```javascript
 export default {
   async email(message, env, ctx) {
@@ -86,7 +86,7 @@ export default {
 
 ## Admin Panel
 - URL: `/api/admin/dashboard`
-- Auth: HTTP Basic (username: `admin`, password: `noxxy_admin_2026`)
+- Auth: HTTP Basic (username: `xxxx`, password: `xxxx`)
 
 ## User Preferences
 - No emoji in UI
