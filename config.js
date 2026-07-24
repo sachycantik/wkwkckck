@@ -15,7 +15,8 @@ module.exports = {
   },
 
   domains: [
-    "noxxyrorr.biz.id"
+    "noxxyrorr.biz.id",
+    "noxnoy.web.id"
   ],
 
   inbox: {
